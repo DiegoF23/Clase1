@@ -1,20 +1,23 @@
 console.log("Javascript funcionando");
 
-let productos = ["Laptop","Mouse","Teclado","monitor","cpu"];
-
-console.log(productos)
-
 const contenedor = document.getElementById("contenedor-productos");
 
-let lista ="<ul>";
+fetch("http://localhost:3000/productos")
+  .then((response) => response.json())
+  .then((productos) => {
+    let lista = "<ul>";
+    for (let i = 0; i < productos.length; i++) {
+      lista += `<li>${productos[i].nombre} - $${productos[i].precio}</li>`;
+    }
+    lista += "</ul>";
+    contenedor.innerHTML = lista;
+  })
+  .catch(error =>{
+    console.error("Error al leer productos.")
+  });
 
-for (let i=0; i < productos.length; i++)
-    {
-    lista += `<li>${productos[i]}</li>`;
-}
 
-lista += "</ul>";
 
-contenedor.innerHTML = lista;
 
-console.log(lista)
+
+console.log(lista);
