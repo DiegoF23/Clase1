@@ -66,6 +66,63 @@ button:disabled{
 }
 
 
+.panel-formulario {
+    background-color: white;
+    padding: 20px;
+    border: 2px solid lightgrey;
+    margin-top: 20px;
+}
+
+/* .oculto {
+    display: none;
+} */
+
+.campo{
+    margin-bottom: 15px;
+}
+
+.campo label {
+    display: block;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.campo input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid gray;
+    box-sizing: border-box;
+}
+
+.acciones-formulario {
+    margin-top: 10px;
+}
+
+#btn-nuevo{
+    background-color: green;
+    color:white
+}
+
+.btn-editar {
+    background-color: orange;
+    color: black;
+}
+
+.btn-editar {
+    background-color: red;
+    color: white;
+}
+
+#btn-cancelar{
+    background-color: gray;
+    color: white;
+}
+
+
+
+
+
+
 
 footer{
     background-color: #222;

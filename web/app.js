@@ -13,8 +13,8 @@ fetch("http://localhost:3000/productos")
           <td> ${productos[i].nombre } </td>
           <td> $ ${productos[i].precio } </td>
           <td> 
-            <button disabled> Editar </button>
-            <button disabled> Eliminar </button>
+            <button disabled class="btn-editar"> Editar </button>
+            <button disabled class="btn-eliminar"> Eliminar </button>
           </td>
         </tr>  
       `
