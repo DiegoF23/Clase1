@@ -1,8 +1,34 @@
 {
-    "productos":[
-        {"id":1, "nombre":"Laptop","precio":1000},
-        {"id":2, "nombre":"Mouse","precio":50},
-        {"id":3, "nombre":"Teclado","precio":80},
-        {"id":4, "nombre":"Monitor","precio":200}
-    ]
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Laptop",
+      "precio": 1000
+    },
+    {
+      "id": 2,
+      "nombre": "Mouse",
+      "precio": 50
+    },
+    {
+      "id": 3,
+      "nombre": "Teclado",
+      "precio": 80
+    },
+    {
+      "id": 4,
+      "nombre": "Monitor",
+      "precio": 200
+    },
+    {
+      "id": 5,
+      "nombre": "Impresora",
+      "precio": 150
+    },
+    {
+      "id": 7,
+      "nombre": "Parlante",
+      "precio": 170
+    }
+  ]
 }

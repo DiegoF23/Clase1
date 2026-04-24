@@ -10,12 +10,25 @@
     <header>
         <h1>Gestion de Productos</h1>
     </header>
-    <main>
-        <section>
-            <h2>Bienvenidos</h2>
-            <p>Este es nuestro primer proyecto</p>
-
-            <div id="contenedor-productos"></div>
+    <main class="contenedor">
+        <section class="panel-listado" >
+            <div class="barra-superior">
+                <h2>Productos cargados</h2>
+                <button id="btn-nuevo">Agregar nuevo producto</button>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Codigo</th>
+                        <th>Producto</th>
+                        <th>Precio</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody-productos">
+                    <!--js insertara las filas -->
+                </tbody>
+            </table>
         </section>
     </main>
     <footer>Clase 1</footer>
