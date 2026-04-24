@@ -1,11 +1,11 @@
 body{
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: whitesmoke;
     margin: 0;
     padding: 0;
 }
 header{
-    background-color: #2d89ef;
+    background-color: blue;
     color: white;
     padding: 20px;
     text-align: center;
@@ -13,11 +13,60 @@ header{
 main{
     padding: 20px;
 }
-section{
-    background-color: white;
-    padding: 15px;
-    margin-bottom: 20px;
+
+.contenedor {
+    width: 90%;
+    margin: 20px auto;
 }
+.panel-listado {
+    background-color: white;
+    padding: 20px;
+    border: 3px solid lightgrey;
+}
+.barra-superior {
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+h1,h2 {
+    margin: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+th{
+    background-color:  lightgrey;
+    color: black;
+    padding: 10px;
+    border: 1px solid gray;
+    text-align: left;
+}
+td {
+    padding: 10px;
+    border:  1px solid gray;
+}
+
+button {
+    padding: 8px 12px;
+    border: 1px solid gray;
+    background-color:  white;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+button:disabled{
+    background-color: lightgrey;
+    color: gray;
+    cursor: not-allowed;
+}
+
+
+
 footer{
     background-color: #222;
     color: white;
